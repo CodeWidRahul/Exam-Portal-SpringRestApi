@@ -13,7 +13,7 @@ public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long questId;
-    @Column(length = 1000)
+    @Column(length = 3000)
     private String content;
     private String image;
 
